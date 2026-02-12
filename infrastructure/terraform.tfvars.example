@@ -1,0 +1,24 @@
+# ── DigitalOcean ──────────────────────────────────────────────
+# Generate at: https://cloud.digitalocean.com/account/api/tokens
+do_token = "dop_v1_..."
+
+# ── Cloudflare ───────────────────────────────────────────────
+# Generate at: https://dash.cloudflare.com/profile/api-tokens
+# Required permissions: Zone:DNS:Edit, Zone:Cache Purge:Purge
+cloudflare_api_token = "..."
+
+# Find at: Cloudflare Dashboard → mussi.tech → Overview (right sidebar)
+cloudflare_zone_id = "..."
+
+# ── App configuration (defaults should work) ──────────────────
+# app_name       = "mussitech"
+# app_domain     = "mussi.tech"
+# region         = "nyc"
+
+# ── GitHub ────────────────────────────────────────────────────
+# github_repo    = "prodevcom/mussi-tech"
+# github_branch  = "main"
+
+# ── Sizing ($5/mo) ───────────────────────────────────────────
+# instance_size  = "basic-xxs"    # $5/mo
+# instance_count = 1

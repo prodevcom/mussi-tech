@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# terraform (safety — infrastructure/.gitignore handles most)
+infrastructure/*.tfstate*
+infrastructure/.terraform/
+infrastructure/terraform.tfvars
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
