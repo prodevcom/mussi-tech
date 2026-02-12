@@ -26,7 +26,7 @@ resource "digitalocean_app" "mussitech" {
         deploy_on_push = false
       }
 
-      build_command = "npm ci && npm run build && cp -r public .next/standalone/public && cp -r .next/static .next/standalone/.next/static"
+      build_command = "npm ci --include=dev && npm run build && cp -r public .next/standalone/public && cp -r .next/static .next/standalone/.next/static"
       run_command   = "node .next/standalone/server.js"
 
       env {
@@ -56,35 +56,29 @@ resource "digitalocean_app" "mussitech" {
   }
 }
 
+# ── Locals ────────────────────────────────────────────────────
+locals {
+  # default_ingress returns "https://xxx.ondigitalocean.app", CNAME needs just the hostname
+  app_hostname = replace(digitalocean_app.mussitech.default_ingress, "https://", "")
+}
+
 # ── Cloudflare DNS ────────────────────────────────────────────
 resource "cloudflare_record" "apex" {
-  zone_id = var.cloudflare_zone_id
-  name    = "@"
-  content = digitalocean_app.mussitech.default_ingress
-  type    = "CNAME"
-  proxied = true
-  ttl     = 1
+  zone_id         = var.cloudflare_zone_id
+  name            = "@"
+  content         = local.app_hostname
+  type            = "CNAME"
+  proxied         = true
+  ttl             = 1
+  allow_overwrite = true
 }
 
 resource "cloudflare_record" "www" {
-  zone_id = var.cloudflare_zone_id
-  name    = "www"
-  content = digitalocean_app.mussitech.default_ingress
-  type    = "CNAME"
-  proxied = true
-  ttl     = 1
-}
-
-# ── Cloudflare Page Rule: www → apex redirect ─────────────────
-resource "cloudflare_page_rule" "www_redirect" {
-  zone_id  = var.cloudflare_zone_id
-  target   = "www.${var.app_domain}/*"
-  priority = 1
-
-  actions {
-    forwarding_url {
-      url         = "https://${var.app_domain}/$1"
-      status_code = 301
-    }
-  }
+  zone_id         = var.cloudflare_zone_id
+  name            = "www"
+  content         = local.app_hostname
+  type            = "CNAME"
+  proxied         = true
+  ttl             = 1
+  allow_overwrite = true
 }
