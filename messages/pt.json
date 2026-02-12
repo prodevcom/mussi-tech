@@ -1,0 +1,547 @@
+{
+  "portfolio": {
+    "meta": {
+      "title": "Full Stack Engineer | AI Enthusiast | Marcelo Mussi",
+      "description": "Full Stack Engineer e AI Enthusiast com 17+ anos entregando apps e plataformas escaláveis com Flutter, Laravel, Next.js e integrações de IA."
+    },
+    "data": {
+      "badge": "Full Stack Engineer | AI Enthusiast",
+      "name": "Marcelo Mussi",
+      "role": "Flutter • Laravel • Next.js • AI Integration",
+      "summary": "Construo produtos end-to-end — de apps mobile em Flutter a backends Laravel e frontends Next.js, potencializados por integrações de IA. Com 17+ anos entregando em toda a stack, crio sistemas inteligentes que escalam do MVP à produção.",
+      "location": "Dubai, UAE",
+      "languages": "Português (Nativo) - Inglês (Profissional)"
+    },
+    "metrics": [
+      { "value": "17+", "label": "Anos Construindo" },
+      { "value": "8", "label": "Empresas" },
+      { "value": "30+", "label": "Produtos Entregues" },
+      { "value": "AI", "label": "Soluções Inteligentes" }
+    ],
+    "nav": {
+      "about": "Sobre",
+      "architecture": "Arquitetura",
+      "highlights": "Destaques",
+      "experience": "Experiência",
+      "testimonials": "Depoimentos",
+      "freelancer": "Contratar",
+      "contact": "Contato"
+    },
+    "sections": {
+      "architecture": "Arquitetura",
+      "highlights": "Resumo Executivo",
+      "cases": "Casos de Sucesso",
+      "testimonials": "Depoimentos",
+      "guideline": "Diretrizes de Desenvolvimento",
+      "stack": "Stack",
+      "experience": "Experiência",
+      "education": "Educação"
+    },
+    "architecture": {
+      "title": "Arquitetura de",
+      "title_gradient": "Projeto",
+      "description": "Como estruturo projetos end-to-end — do backend à infraestrutura, cada camada com propósito.",
+      "layers": [
+        {
+          "icon": "backend",
+          "title": "Backend",
+          "tech": "Laravel, NestJS, Node.js, Python",
+          "description": "APIs, auth, filas, regras de negócio"
+        },
+        {
+          "icon": "frontend",
+          "title": "Frontend",
+          "tech": "Next.js, React, Inertia.js",
+          "description": "SSR, SPA, dashboards, design systems"
+        },
+        {
+          "icon": "ai",
+          "title": "AI & Inteligência",
+          "tech": "OpenAI, Claude, LangChain, RAG",
+          "description": "Chatbots, agents, automação inteligente"
+        },
+        {
+          "icon": "cache",
+          "title": "Cache & Filas",
+          "tech": "Redis, Supervisor, Horizon",
+          "description": "Sessão, cache, jobs, eventos real-time"
+        },
+        {
+          "icon": "apps",
+          "title": "Mobile Apps",
+          "tech": "Flutter, Dart, React Native",
+          "description": "Cross-platform, pipelines de store, OTA"
+        },
+        {
+          "icon": "cdn",
+          "title": "CDN & Delivery",
+          "tech": "Cloudflare, S3, DO Spaces",
+          "description": "Assets, WAF, edge caching, storage"
+        },
+        {
+          "icon": "infra",
+          "title": "Infraestrutura",
+          "tech": "Terraform, Docker, GitHub Actions",
+          "description": "IaC, CI/CD, deploys zero-downtime"
+        }
+      ]
+    },
+    "highlights_title": "O que me",
+    "highlights_title_gradient": "define",
+    "stack_title": "Tecnologias que",
+    "stack_title_gradient": "domino",
+    "experience_title": "Trajetória",
+    "experience_title_gradient": "profissional",
+    "education_title": "Formação",
+    "education_title_gradient": "acadêmica",
+    "direct_email": "Email direto",
+    "click_to_visit": "Clique para ver o site",
+    "copyright": "Todos os direitos reservados.",
+    "highlights_items": [
+      "Arquitetura Flutter-first com módulos limpos, state management e código testável.",
+      "Foco em performance mobile: UI fluida, startup otimizado e releases estáveis.",
+      "Entrega de produto do MVP à escala com resultados mensuráveis.",
+      "Integração full stack: APIs, auth, analytics e observabilidade.",
+      "Liderança hands-on com ownership de código e qualidade."
+    ],
+    "cases": [
+      {
+        "title": "EnhanceFitness",
+        "subtitle": "Refatoração Flutter",
+        "bullets": [
+          "App legado limitava experiência e escalabilidade",
+          "Refatoração e modernização do app mobile da EnhanceFitness em Flutter",
+          "Integração multi-software processando milhões de requisições simultâneas"
+        ],
+        "appstore": "https://apps.apple.com/ae/app/enhance-personal-trainers/id1320071412",
+        "playstore": "https://play.google.com/store/apps/details?id=club.enhance&hl=en"
+      },
+      {
+        "title": "eduK",
+        "subtitle": "Impacto Social",
+        "bullets": [
+          "Sem produto mobile para conteúdo em escala",
+          "App Flutter do zero com roadmap claro",
+          "Acesso mobile para baixa renda"
+        ],
+        "appstore": "https://apps.apple.com/br/app/eduk-cursos-online/id1223724933",
+        "playstore": "https://play.google.com/store/apps/details?id=com.eduk.edukandroidapp"
+      },
+      {
+        "title": "World Vision",
+        "subtitle": "Together for Children",
+        "bullets": [
+          "Fluxo de doações precisava resiliência",
+          "Arquitetura end-to-end evoluída",
+          "Performance global consistente"
+        ]
+      }
+    ],
+    "guideline": {
+      "title": "Diretrizes de",
+      "title_gradient": "Desenvolvimento e Mindset",
+      "description": "Da ideia à escala, construo sistemas mobile-first com arquitetura clara, automação e entrega confiável.",
+      "items": [
+        {
+          "icon": "📱",
+          "title": "Build em Flutter",
+          "subtitle": "Execução mobile-first",
+          "description": "Apps multiplataforma com arquitetura limpa, releases previsíveis e foco em performance.",
+          "bullets": [
+            "Código modular e UI reutilizável",
+            "Pipelines de release e preparação para lojas"
+          ]
+        },
+        {
+          "icon": "🎨",
+          "title": "Frontend com Next.js",
+          "subtitle": "Design-to-code",
+          "description": "Superfícies web, dashboards e admin com UX forte e componentes sustentáveis.",
+          "bullets": [
+            "Design system e reutilização",
+            "Performance e SEO"
+          ]
+        },
+        {
+          "icon": "⚙️",
+          "title": "Backend com NestJS",
+          "subtitle": "APIs escaláveis",
+          "description": "Serviços tipados, auth e workflows assíncronos para entrega previsível.",
+          "bullets": [
+            "REST/GraphQL e jobs",
+            "Observabilidade e rastreio de erros"
+          ]
+        },
+        {
+          "icon": "🧱",
+          "title": "Laravel & PHP",
+          "subtitle": "Entrega confiável",
+          "description": "Soluções pragmáticas para MVPs e sistemas em produção com escala consciente.",
+          "bullets": [
+            "Arquitetura limpa, testes e filas",
+            "Iteração rápida com estabilidade"
+          ]
+        },
+        {
+          "icon": "🤖",
+          "title": "AI & Automação",
+          "subtitle": "Sistemas inteligentes",
+          "description": "Features com IA — chatbots, geração de conteúdo, automação inteligente e integrações com LLMs que agregam valor real aos produtos.",
+          "bullets": [
+            "OpenAI, Claude e orquestração de LLMs",
+            "AI agents, pipelines RAG e interfaces de chat"
+          ]
+        },
+        {
+          "icon": "🔁",
+          "title": "Processamento de alto desempenho",
+          "subtitle": "Integrações assíncronas",
+          "description": "Fluxos orientados a eventos para troca de dados com terceiros em escala.",
+          "bullets": [
+            "Filas, retries e idempotência",
+            "Processamento em lote e throughput"
+          ]
+        }
+      ]
+    },
+    "stack_groups": [
+      { "title": "Flutter & Mobile", "items": ["Flutter", "Dart", "Bloc/Riverpod", "GetX", "React Native"] },
+      { "title": "Web & Backend", "items": ["Next.js", "NestJS", "Laravel", "PHP", "Node.js", "React", "Python"] },
+      { "title": "AI & Automação", "items": ["OpenAI", "Claude", "LangChain", "RAG", "AI Agents", "Prompt Engineering"] },
+      { "title": "Dados & Infra", "items": ["PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Terraform"] }
+    ],
+    "experiences": [
+      {
+        "company": "Enhance",
+        "role": "Head of Software Engineering",
+        "period": "2023 - 2025",
+        "location": "Dubai, UAE",
+        "bullets": [
+          "Promovido de Senior Engineer para Head of Engineering em Jan 2025",
+          "Liderança de arquitetura Flutter e sistemas escaláveis com Python, Django, NestJS e Next.js",
+          "Mentoria de times de engenharia, promovendo cultura de colaboração e melhoria contínua",
+          "Service Launch Engineering para onboarding de clientes e rollouts globais"
+        ]
+      },
+      {
+        "company": "eduK",
+        "role": "CTO",
+        "period": "2021 - 2024",
+        "location": "São Paulo",
+        "bullets": [
+          "Progressão Tech Lead -> Tech Manager -> CTO em 2.5 anos",
+          "Liderança de entrega mobile Flutter com React e NestJS para soluções de impacto social",
+          "Escalabilidade e estabilidade de plataformas, garantindo operações confiáveis",
+          "Foco em soluções tecnológicas sustentáveis e inclusivas"
+        ]
+      },
+      {
+        "company": "Zup Innovation",
+        "role": "Tech Lead",
+        "period": "2020 - 2021",
+        "location": "São Paulo",
+        "bullets": [
+          "Liderança do desenvolvimento de programa de validação de candidatos desenvolvedores",
+          "Design de método inovador de avaliação técnica e linguística",
+          "Melhoria significativa no processo de recrutamento tech"
+        ]
+      },
+      {
+        "company": "Maquina do Bem",
+        "role": "Tech Manager",
+        "period": "2018 - 2020",
+        "location": "São Paulo",
+        "bullets": [
+          "Gestão de todos os projetos da World Vision Brasil",
+          "Infraestrutura robusta e sistemas de gateway de pagamento com React, React Native, Node.js e PHP",
+          "Liderança da segunda versão do \"Juntos pelas Crianças\" com escalabilidade internacional"
+        ]
+      },
+      {
+        "company": "The Media Trade",
+        "role": "Co-Founder & Tech Lead",
+        "period": "2017 - 2018",
+        "location": "São Paulo",
+        "bullets": [
+          "Co-fundou a The Media Trade, pioneira no primeiro sistema integrado de compra de mídia Out-of-Home no Brasil",
+          "Liderou o time de tecnologia para facilitar e democratizar processos de compra de mídia",
+          "Aplicações escaláveis com Vue.js, React, PHP, Laravel e MongoDB"
+        ]
+      },
+      {
+        "company": "Intoo",
+        "role": "CTO",
+        "period": "2014 - 2016",
+        "location": "São Paulo",
+        "bullets": [
+          "Gestão e evolução da primeira plataforma democrática de antecipação de recebíveis do Brasil",
+          "Desenvolvimento de workflows financeiros core e experiência do usuário",
+          "Soluções escaláveis com React, TypeScript, PHP, MySQL e MongoDB"
+        ]
+      },
+      {
+        "company": "Contele",
+        "role": "Development Team Lead",
+        "period": "2012 - 2014",
+        "location": "Santos, São Paulo",
+        "bullets": [
+          "Progressão de Assistant Web Developer para Principal Developer e Team Lead",
+          "Delivery, code reviews e definição de escopo em projetos da empresa",
+          "Soluções com PHP, jQuery, Android e MySQL"
+        ]
+      },
+      {
+        "company": "Prodev",
+        "role": "Founder",
+        "period": "2008 - Presente",
+        "location": "São Paulo",
+        "bullets": [
+          "Consultoria especializada em entrega rápida de apps mobile Flutter e plataformas full stack",
+          "Stack: Flutter/Dart, Node.js, PHP/Laravel, React, React Native, Next.js",
+          "Colaboração próxima com clientes para soluções sob medida dentro do orçamento"
+        ]
+      }
+    ],
+    "testimonials": {
+      "title": "O que dizem",
+      "title_gradient": "sobre mim",
+      "items": [
+        {
+          "quote": "Trabalhei com o Marcelo em projetos extremamente complexos distribuídos em vários países. Ele combina expertise técnica profunda com forte entendimento de negócio, entregando soluções de alta qualidade mesmo nos cenários mais desafiadores. Suas habilidades foram essenciais para a execução e implementação bem-sucedida dos nossos projetos. Recomendo fortemente o Marcelo.",
+          "name": "Henrique Buosi Lopes",
+          "role": "Senior Product Manager | SaaS, AI & Cloud",
+          "relationship": "Trabalhou no mesmo time"
+        },
+        {
+          "quote": "Mussi é o tipo de pessoa que vai fundo para encontrar a causa raiz e resolver o problema. Um profissional completo, capaz de aprender rápido, falhar rápido e crescer rápido. O vi liderar squads com maestria. Recomendo ele para empresas que querem construir e dão valor a tecnologia como potencial para elevar a dignidade e o ser humano.",
+          "name": "Vinícius Souza",
+          "role": "Marketing, Growth and AI",
+          "relationship": "Partner"
+        },
+        {
+          "quote": "Marcelo é um líder nato! Aberto para comunicação e sempre disposto a dar dicas e oportunidades de crescimento para quem realmente quer evoluir! Sem dúvidas faz total diferença para o crescimento individual e da equipe!",
+          "name": "João Vitor Melo Kremer",
+          "role": "Front-end Developer | Software Engineering",
+          "relationship": "Reportava ao Marcelo diretamente"
+        },
+        {
+          "quote": "É raro encontrar profissionais como o Marcelo no mercado. Tenho o prazer de trabalhar com ele por alguns anos e sempre fiquei admirado com sua capacidade técnica e organização de tarefas. Ele é especialista em comandar e organizar uma equipe de tecnologia. Marcelo seria um trunfo para qualquer equipe.",
+          "name": "Eduardo Destruti",
+          "role": "Tech Manager | Senior Software Engineer",
+          "relationship": "Gerenciou o Marcelo diretamente"
+        }
+      ]
+    },
+    "education_items": [
+      { "title": "MBA em Desenvolvimento Mobile", "subtitle": "Apps, IoT, ChatBots & Assistentes Virtuais", "institution": "FIAP", "period": "2022 - 2023" },
+      { "title": "Pós-Graduação em Flutter", "subtitle": "Desenvolvimento Mobile", "institution": "FETES", "period": "2022 - 2023" },
+      { "title": "Análise de Sistemas", "subtitle": "Sistemas de Computação", "institution": "UNIMONTE", "period": "2011 - 2013" }
+    ],
+    "prodev_section": {
+      "overline": "Projeto Pessoal",
+      "title": "Construindo o Prodev",
+      "description": "Um investimento de produto de longo prazo que captura anos de lições de entrega para ajudar desenvolvedores a operar com clareza.",
+      "bullets": [
+        "Produto vivo, não projeto paralelo",
+        "Menos reuniões, resultados mais claros",
+        "Equilíbrio entre velocidade e custo",
+        "Compromisso com a comunidade dev"
+      ]
+    },
+    "freelancer": {
+      "overline": "Aberto para Projetos",
+      "title": "Vamos Construir",
+      "title_gradient": "Juntos",
+      "description": "Disponível para projetos freelance, consultoria e parcerias técnicas. Trago ownership end-to-end da arquitetura ao deploy.",
+      "status": "Disponível para novos projetos",
+      "services": [
+        { "icon": "📱", "title": "Apps Mobile", "description": "Apps Flutter do MVP à produção, publicados na App Store e Google Play." },
+        { "icon": "⚙️", "title": "Backend & APIs", "description": "Backends em Laravel e Node.js com arquitetura escalável e código limpo." },
+        { "icon": "🤖", "title": "Integração de IA", "description": "Chatbots, automação, pipelines RAG e features inteligentes com LLMs." },
+        { "icon": "🌐", "title": "Plataformas Web", "description": "Dashboards Next.js, painéis admin e aplicações web completas." }
+      ],
+      "models": [
+        { "title": "Por Projeto", "description": "Entrega end-to-end com escopo definido" },
+        { "title": "Extensão de Time", "description": "Integrado ao seu time como recurso sênior" },
+        { "title": "Consultoria Técnica", "description": "Revisão de arquitetura, auditoria de código e estratégia" }
+      ]
+    },
+    "cta": {
+      "overline": "Disponível para oportunidades",
+      "title": "Pronto para a próxima construção",
+      "description": "Aberto a Mobile Flutter Specialist, Flutter Tech Lead ou Full Stack hands-on com foco em entrega mobile.",
+      "email": "Iniciar conversa",
+      "linkedin": "LinkedIn",
+      "note": "Email é a forma mais rápida de me contatar."
+    },
+    "starwars_message": "May the Force be with you.",
+    "open_source": "Gostou do site? Veja como foi feito no",
+    "chatbot": {
+      "title": "MussiGPT v0.1",
+      "subtitle": "Free Tier (forever)",
+      "placeholder": "Pergunte algo sobre o Marcelo...",
+      "send": "Enviar",
+      "welcome": "Fala! Eu sou o MussiGPT, o assistente totalmente-nao-IA do Marcelo. Pergunte sobre skills, experiencia, ou tente uns comandos de dev!",
+      "empty": "Voce mandou... nada? Ate o `undefined` tem mais conteudo que isso.",
+      "too_many": "A gente ta conversando faz tempo! Nesse ponto, melhor mandar email pro Marcelo direto: mussi@prodev.com.br",
+      "responses": {
+        "greetings": [
+          "E ai! Bem-vindo ao cantinho do Marcelo na internet. Como posso ajudar?",
+          "Ola! Sou o MussiGPT, movido a pura energia de if/else. Como posso ajudar?",
+          "Oi! Pergunte sobre as skills do Marcelo, experiencia, ou digite 'sudo' pra ver o que acontece."
+        ],
+        "thanks": [
+          "De nada! To aqui pra isso. Bom, pra isso e pra fazer o Marcelo parecer incrivel.",
+          "Sem problema! Se precisar de mais algo, to rodando 24/7. Zero custo de servidor.",
+          "Disponha! Diferente de IA de verdade, eu nunca preciso de descanso."
+        ],
+        "bye": [
+          "Ate mais! Nao esquece de ver o LinkedIn do Marcelo antes de sair.",
+          "Tchau! Que o codigo limpo esteja com voce.",
+          "Ate a proxima! Lembre-se: mussi@prodev.com.br se quiser o negocio de verdade."
+        ],
+        "who": [
+          "Marcelo Mussi e um Full Stack Engineer baseado em Dubai, UAE. 17+ anos construindo produtos com Flutter, Laravel, Next.js e integracoes de IA.",
+          "Esse e o Marcelo Mussi! Full Stack Engineer e AI enthusiast com 17+ anos de experiencia. Atualmente em Dubai, construindo de apps mobile a plataformas com IA."
+        ],
+        "flutter": [
+          "Flutter e o superpoder do Marcelo. Ele construiu apps como EnhanceFitness e eduK -- ambos nas lojas. Arquitetura limpa, Bloc/Riverpod, o pacote completo.",
+          "Marcelo + Flutter = apps que realmente entregam. Multiplataforma, codigo limpo e usuarios reais. Confira o portfolio acima!"
+        ],
+        "laravel": [
+          "Laravel? Marcelo constroi com ele desde os primeiros dias. APIs, filas, Horizon, Telescope -- o ecossistema completo. Esse site roda em Laravel!",
+          "Laravel esta no DNA do Marcelo. De MVPs a plataformas em producao, ele constroi backends robustos que escalam."
+        ],
+        "experience": [
+          "17+ anos, 8 empresas, 30+ produtos entregues. De CTO na eduK a Head of Engineering na Enhance em Dubai. Isso nao e curriculo, e uma saga.",
+          "Marcelo programa desde 2008. Destaques: CTO, Head of Engineering, Co-Founder, Tech Lead. Suba ate a secao de Experiencia pra ver o timeline completo!"
+        ],
+        "dubai": [
+          "Sim! Marcelo atualmente mora e trabalha em Dubai, UAE. Ele se mudou pra la pra liderar engenharia na Enhance, uma empresa de fitness tech.",
+          "Dubai e a base atual. Marcelo trabalha como Head of Software Engineering na Enhance. Sol, codigo e arquitetura limpa."
+        ],
+        "stack": [
+          "Flutter, Dart, Laravel, Next.js, NestJS, React, Python, PostgreSQL, Redis, Docker, AWS, Terraform... e ele realmente usa tudo isso. Nao so buzzwords.",
+          "A stack? Flutter pra mobile, Laravel/NestJS pra backend, Next.js pra web, e integracoes de IA com OpenAI e Claude. Full stack de verdade."
+        ],
+        "hire": [
+          "Otima ideia! Marcelo esta disponivel pra freelance, consultoria e vagas full-time. Mande email pra mussi@prodev.com.br ou conecte no LinkedIn!",
+          "Quer contratar o Marcelo? Jogada inteligente. Mande email pra mussi@prodev.com.br -- ele responde rapido."
+        ],
+        "price": [
+          "Boa tentativa! Preco depende do escopo do projeto. Melhor conversar direto -- email mussi@prodev.com.br e bora falar de numeros.",
+          "Meus dados de treinamento nao incluem info de salario. Mas o email do Marcelo inclui: mussi@prodev.com.br"
+        ],
+        "freelance": [
+          "Marcelo esta disponivel pra projetos freelance! Apps mobile, backends, integracoes de IA -- o cardapio completo. Email mussi@prodev.com.br pra comecar.",
+          "Freelance? Com certeza. Por projeto, extensao de time, ou consultoria. Veja a secao 'Contratar' acima ou email mussi@prodev.com.br."
+        ],
+        "email": [
+          "Voce pode contactar o Marcelo em mussi@prodev.com.br -- ele e rapido no email. Tambem esta no LinkedIn: linkedin.com/in/marcelo-mussi",
+          "Email: mussi@prodev.com.br | LinkedIn: /in/marcelo-mussi | GitHub: /prodevcom. Escolha seu canal!"
+        ],
+        "available": [
+          "Sim! Marcelo esta disponivel pra novos projetos e oportunidades. Nao espere -- mussi@prodev.com.br",
+          "Status: Disponivel. Seja freelance, consultoria ou vaga full-time. Entre em contato!"
+        ],
+        "sudo": [
+          "Permissao negada. Boa tentativa.",
+          "Nem o sudo consegue acessar o salario do Marcelo. Tente 'contratar' em vez disso.",
+          "sudo: comando nao encontrado. Mas voce encontrou o portfolio do Marcelo, entao ja e uma vitoria."
+        ],
+        "git": [
+          "git commit -m 'contratou Marcelo' -- melhor commit da sua carreira.",
+          "git push origin contratar-marcelo --force. Zero conflitos de merge garantido.",
+          "O historico de commits do Marcelo e mais limpo que seu banco de producao."
+        ],
+        "404": [
+          "O unico 404 aqui e o motivo pra NAO contratar o Marcelo.",
+          "404: Desculpa nao encontrada. Manda email logo."
+        ],
+        "console": [
+          "Ah, uma pessoa de cultura. Confira o console do navegador pra uma surpresa ;)",
+          "console.log('Contrate o Marcelo') // retorna: true"
+        ],
+        "stackoverflow": [
+          "Marcelo se formou na Universidade Stack Overflow. Primeiro da turma.",
+          "Stack Overflow? E la que o Marcelo tirou seu PhD em copy-paste... digo, engenharia de software."
+        ],
+        "bug": [
+          "Nao e um bug, e uma feature nao documentada. -- Todo dev sempre.",
+          "Marcelo nao escreve bugs. Ele escreve features surpresa."
+        ],
+        "python": [
+          "Marcelo prefere cafe fortemente tipado com seu codigo. Mas sim, Python esta no toolkit dele.",
+          "Python, Django, scripts de dados -- Marcelo usa quando o trabalho pede. Ele e stack-agnostico assim."
+        ],
+        "vim": [
+          "Marcelo uma vez abriu o vim e conseguiu sair. Historia real.",
+          ":wq! -- O comando mais poderoso da historia. Marcelo dominou."
+        ],
+        "docker": [
+          "Marcelo containeriza tudo. Ate o almoco.",
+          "Docker, Compose, Kubernetes -- se pode ser containerizado, Marcelo ja containerizou."
+        ],
+        "linux": [
+          "Eu uso Arch btw. Brincadeira, eu sou um switch case.",
+          "Linux e o habitat natural do Marcelo. Terminal > GUI, sempre."
+        ],
+        "ai": [
+          "IA e legal e tudo, mas eu rodo na pura energia de if/else. Zero GPU necessario.",
+          "Marcelo integra OpenAI, Claude, LangChain e pipelines RAG em produtos reais. Eu sou a versao economica dele.",
+          "IA de verdade precisa de GPUs e milhoes em financiamento. Eu so preciso de umas keywords e vibes."
+        ],
+        "javascript": [
+          "JavaScript: a linguagem onde [] + [] = '' e {} + [] = 0. Marcelo ainda ama.",
+          "JS, TS, Node -- Marcelo escreve JavaScript desde antes de ser cool. E durante os tempos sombrios. E agora."
+        ],
+        "css": [
+          "CSS: onde centralizar uma div e um rito de passagem. Marcelo passou.",
+          "Tailwind, CSS custom, layouts responsivos -- Marcelo faz os pixels obedecerem."
+        ],
+        "deploy": [
+          "Deploy na sexta? Marcelo faz com confianca. Esse e o verdadeiro flex.",
+          "CI/CD, GitHub Actions, deploys zero-downtime -- Marcelo envia sem drama."
+        ],
+        "production": [
+          "Marcelo testa em producao. Brincadeira... ou sera que nao?",
+          "Producao e onde a magia acontece. E onde o codigo do Marcelo vive, estavel e monitorado."
+        ],
+        "api": [
+          "REST, GraphQL, gRPC -- Marcelo fala todos os dialetos de API.",
+          "Precisa de uma API? Marcelo constroi limpas, documentadas e escalaveis. E meio que a especialidade dele."
+        ],
+        "real_ai": [
+          "Eu? IA de verdade? Fico lisonjeado, mas nao. Sou uma humilde colecao de if/else fingindo ser inteligente.",
+          "Sou tao IA quanto uma maquina de venda e um chef. Mas dou conta do recado!",
+          "IA de verdade custa milhoes. Eu custo umas 50 linhas de JavaScript. Faz as contas."
+        ],
+        "chicken": [
+          "O que veio primeiro, a galinha ou o ovo? Nenhum dos dois. O primeiro commit veio primeiro. E nao tinha testes.",
+          "O ovo veio primeiro. Foi deployado em producao numa sexta. A galinha foi o hotfix.",
+          "Pegadinha. A verdadeira pergunta e: o que veio primeiro, o bug ou o feature request?"
+        ],
+        "starwars": [
+          "Faca ou nao faca, nao existe try... catch. Espera, na verdade existe. Use.",
+          "Luke, eu sou seu... desenvolvedor senior. Agora vai refatorar esse codigo legado.",
+          "Que o --force push esteja com voce. Mas por favor, nao na main.",
+          "O lado sombrio da Forca e um caminho para muitas habilidades que alguns consideram anormais... como codar sem IA.",
+          "Marcelo tem o high ground. E um git history limpo."
+        ],
+        "harrypotter": [
+          "Expelliarmus! *remove todos os seus pacotes npm* Opa, isso foi rm -rf node_modules.",
+          "Voce e um desenvolvedor, Harry! Agora vai corrigir esse bug antes do Dumbledore ver os logs de producao.",
+          "O codigo do Marcelo e como a Sala Precisa -- sempre tem exatamente o que voce precisa.",
+          "Avada Kedavra e so kill -9 com passos extras.",
+          "10 pontos pra Grifinoria por escrever testes unitarios. 50 pontos a menos pra Sonserina por dar push direto na main."
+        ]
+      },
+      "fallback": [
+        "Hmm, nao tenho uma resposta esperta pra isso. Mas o Marcelo pode ter! Email: mussi@prodev.com.br",
+        "Meu cerebro de if/else nao processa isso. Tente perguntar sobre skills, experiencia, ou digite 'contratar'!",
+        "Isso vai alem do meu vocabulario de keywords. Nao sou ChatGPT, sou MussiGPT -- a versao economica. Tente 'stack', 'experiencia', ou 'contratar'!",
+        "Erro 418: Sou um bule de cha. Mas serio, tente perguntar sobre Flutter, Laravel, ou como contratar o Marcelo."
+      ]
+    }
+  }
+}
